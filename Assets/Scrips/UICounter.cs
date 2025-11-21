@@ -16,7 +16,7 @@ public class UICounter : MonoBehaviour
 
     public void ComparedAndTrue()
     {
-        if (counter == 4)
+        if (counter >= 4)
         {
             onComparedAndTrue.Invoke();
         }
