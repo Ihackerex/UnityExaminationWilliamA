@@ -15,14 +15,23 @@ public class AnimatorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Välj vad actionen heter i inputsystemet
-        if (williamsPlayerAction.FindAction("").IsPressed())
+        //Vï¿½lj vad actionen heter i inputsystemet
+        if (williamsPlayerAction.FindAction("Move").IsPressed())
         {
-            //välj relevant Variabel och namn
-            williamsAnimator.SetBool("", true);
+            //vï¿½lj relevant Variabel och namn
+            williamsAnimator.SetBool("Run", true);
         }
         else
-            williamsAnimator.SetBool("", false);
+            williamsAnimator.SetBool("Run", false);
 
+
+//Vï¿½lj vad actionen heter i inputsystemet
+        if (williamsPlayerAction.FindAction("Jump").IsPressed())
+        {
+            //vï¿½lj relevant Variabel och namn
+            williamsAnimator.SetBool("Jump", true);
+        }
+        else
+            williamsAnimator.SetBool("Jump", false);
     }
 }
