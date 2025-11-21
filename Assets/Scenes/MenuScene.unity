@@ -1949,7 +1949,7 @@ GameObject:
   - component: {fileID: 1241758043}
   - component: {fileID: 1241758042}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Welcome text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1994,7 +1994,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello and welcome to game!
+  m_text: 'Hello and welcome to game!
+
+
+    Click button to start'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2059,7 +2062,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -142.48706, y: 0, z: -193.87582, w: 0}
+  m_margin: {x: -142.48706, y: 0, z: -193.87582, w: -53.879135}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2611,8 +2614,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1894811654}
   - {fileID: 1241758041}
+  - {fileID: 1894811654}
   - {fileID: 1004469536}
   m_Father: {fileID: 1519636458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
